@@ -899,16 +899,6 @@ Wire Wire Line
 	3100 6800 3450 6800
 Wire Wire Line
 	3100 6600 3450 6600
-Text GLabel 3450 6100 0    50   Input ~ 0
-VSS
-Text GLabel 3450 6200 0    50   Input ~ 0
-VSS
-Text GLabel 3450 6300 0    50   Input ~ 0
-VSS
-Text GLabel 3450 6400 0    50   Input ~ 0
-VSS
-Text GLabel 3450 6500 0    50   Input ~ 0
-VSS
 Wire Wire Line
 	9950 4150 10250 4150
 Wire Wire Line
