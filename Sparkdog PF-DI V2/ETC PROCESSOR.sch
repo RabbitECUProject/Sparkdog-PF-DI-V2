@@ -511,7 +511,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 5050 4100 5050
 Text GLabel 3500 5050 0    50   Input ~ 0
-VCC3V3A
+VCCA3V3
 Text GLabel 3500 5350 0    50   Input ~ 0
 VSSA
 Wire Wire Line

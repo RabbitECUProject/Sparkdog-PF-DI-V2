@@ -252,11 +252,11 @@ Text HLabel 7350 4450 2    50   Input ~ 0
 HYSTHAB
 Text HLabel 7350 4550 2    50   Input ~ 0
 HYSTLAB
-Text HLabel 7350 4650 2    50   Input ~ 0
-PUAEN
 Text HLabel 7350 4750 2    50   Input ~ 0
+PUAEN
+Text HLabel 7350 4650 2    50   Input ~ 0
 HMEN
-Text HLabel 7350 4850 2    50   Input ~ 0
+Text HLabel 7350 4950 2    50   Input ~ 0
 M2EN
 Text HLabel 7350 5050 2    50   Input ~ 0
 REL_CS
@@ -358,4 +358,6 @@ Text HLabel 3000 4050 0    50   Output ~ 0
 U1_RTS
 Text HLabel 3000 4150 0    50   Output ~ 0
 U1_CTS
+Text HLabel 7350 4850 2    50   Output ~ 0
+REL_RST
 $EndSCHEMATC
