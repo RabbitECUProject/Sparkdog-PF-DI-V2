@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Rabbit~ECU~Schematic~Symbols:Teensy_3_5 U300
+L Sparkdog-PF-DI-V2-rescue:Teensy_3_5-Rabbit_ECU_Schematic_Symbols U300
 U 1 1 605693EF
 P 5100 5350
+AR Path="/605693EF" Ref="U300"  Part="1" 
+AR Path="/6056510E/605693EF" Ref="U300"  Part="1" 
 F 0 "U300" H 5675 9115 50  0000 C CNN
 F 1 "Teensy_3_5" H 5675 9024 50  0000 C CNN
 F 2 "Sparkdog PF-DI V2:TEENSY_3_5" H 5100 5350 50  0001 C CNN
