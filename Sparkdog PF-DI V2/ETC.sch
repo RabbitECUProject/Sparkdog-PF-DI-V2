@@ -192,7 +192,7 @@ Connection ~ 4400 3050
 Wire Wire Line
 	4400 2650 5500 2650
 Text GLabel 5600 2650 2    50   Input ~ 0
-VCC12VP
+VCC12VPP
 $Comp
 L Device:R R511
 U 1 1 60C2C4C7

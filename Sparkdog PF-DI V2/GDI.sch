@@ -82,7 +82,7 @@ Wire Wire Line
 	10200 1400 10250 1400
 Connection ~ 10200 1400
 Text GLabel 10250 1400 2    50   Input ~ 0
-VCC12V
+VCC12VPP
 Text GLabel 9650 2300 2    50   Input ~ 0
 VCC50VPP
 Wire Wire Line
@@ -186,7 +186,7 @@ Wire Wire Line
 	7700 1400 7750 1400
 Connection ~ 7700 1400
 Text GLabel 7750 1400 2    50   Input ~ 0
-VCC12V
+VCC12VPP
 Text GLabel 7150 2300 2    50   Input ~ 0
 VCC50VPP
 Wire Wire Line
@@ -290,7 +290,7 @@ Wire Wire Line
 	10200 3750 10250 3750
 Connection ~ 10200 3750
 Text GLabel 10250 3750 2    50   Input ~ 0
-VCC12V
+VCC12VPP
 Text GLabel 9650 4650 2    50   Input ~ 0
 VCC50VPP
 Wire Wire Line
@@ -394,7 +394,7 @@ Wire Wire Line
 	7700 3750 7750 3750
 Connection ~ 7700 3750
 Text GLabel 7750 3750 2    50   Input ~ 0
-VCC12V
+VCC12VPP
 Text GLabel 7150 4650 2    50   Input ~ 0
 VCC50VPP
 Wire Wire Line
@@ -498,7 +498,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 1900 5800 1900
 Text GLabel 5500 2500 2    50   Input ~ 0
-VCC12V
+VCC12VPP
 $Comp
 L Device:R R802
 U 1 1 606BC60C
@@ -763,7 +763,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 4250 5800 4250
 Text GLabel 5500 4850 2    50   Input ~ 0
-VCC12V
+VCC12VPP
 $Comp
 L Device:R R852
 U 1 1 607C0A4C
@@ -1148,7 +1148,7 @@ $EndComp
 Wire Wire Line
 	6250 7350 6350 7350
 Text GLabel 6350 7350 2    50   Input ~ 0
-VCC12VP
+VCC12VPP
 $Comp
 L Device:D_Schottky D805
 U 1 1 60B98E56

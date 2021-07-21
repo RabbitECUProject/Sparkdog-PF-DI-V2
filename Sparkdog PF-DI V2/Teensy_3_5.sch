@@ -13,19 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Sparkdog-PF-DI-V2-rescue:Teensy_3_5-Rabbit_ECU_Schematic_Symbols U300
-U 1 1 605693EF
-P 5100 5350
-AR Path="/605693EF" Ref="U300"  Part="1" 
-AR Path="/6056510E/605693EF" Ref="U300"  Part="1" 
-F 0 "U300" H 5675 9115 50  0000 C CNN
-F 1 "Teensy_3_5" H 5675 9024 50  0000 C CNN
-F 2 "Sparkdog PF-DI V2:TEENSY_3_5" H 5100 5350 50  0001 C CNN
-F 3 "" H 5100 5350 50  0001 C CNN
-	1    5100 5350
-	1    0    0    -1  
-$EndComp
 Text HLabel 3000 2450 0    50   Input ~ 0
 INJ1_SIG
 Text HLabel 3000 2550 0    50   Input ~ 0
@@ -362,4 +349,15 @@ Text HLabel 3000 4150 0    50   Output ~ 0
 U1_CTS
 Text HLabel 7350 4850 2    50   Output ~ 0
 REL_RST
+$Comp
+L Rabbit~ECU~Schematic~Symbols:Teensy_3_5 U300
+U 1 1 60F1A627
+P 5100 5350
+F 0 "U300" H 5725 9115 50  0000 C CNN
+F 1 "Teensy_3_5" H 5725 9024 50  0000 C CNN
+F 2 "Sparkdog PF-DI V2:TEENSY_3_5" H 5100 5350 50  0001 C CNN
+F 3 "" H 5100 5350 50  0001 C CNN
+	1    5100 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

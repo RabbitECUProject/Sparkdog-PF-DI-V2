@@ -237,7 +237,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 1700 10150 1700
 Text GLabel 10350 1700 2    50   Input ~ 0
-VCC12VP
+VCC12VPP
 Wire Wire Line
 	10350 2000 10150 2000
 Wire Wire Line
@@ -776,4 +776,22 @@ Wire Wire Line
 	1400 5200 2350 5200
 Text GLabel 3650 3500 1    50   Input ~ 0
 VSS
+Wire Wire Line
+	3950 7100 3950 7450
+Wire Wire Line
+	3950 7450 3500 7450
+Text HLabel 3500 7450 0    50   Input ~ 0
+ANK1
+Text HLabel 3700 2950 0    50   Input ~ 0
+ANK2
+Wire Wire Line
+	3750 3500 3750 2950
+Wire Wire Line
+	3750 2950 3700 2950
+Wire Wire Line
+	4350 7100 4350 7550
+Wire Wire Line
+	4350 7550 3500 7550
+Text HLabel 3500 7550 0    50   Input ~ 0
+KTX
 $EndSCHEMATC

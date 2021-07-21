@@ -727,8 +727,6 @@ Wire Wire Line
 Wire Wire Line
 	5450 5850 5450 7250
 Wire Wire Line
-	5650 5850 5650 7550
-Wire Wire Line
 	4250 7250 4250 7650
 Wire Wire Line
 	4250 7650 5250 7650
@@ -736,7 +734,7 @@ Wire Wire Line
 	5250 5850 5250 7650
 Text Notes 4000 6650 2    50   ~ 0
 DEBUG SWD PORT
-Text Label 5650 6600 1    50   ~ 0
+Text Label 5600 7550 2    50   ~ 0
 RESET
 Text Label 5450 6600 1    50   ~ 0
 SWDIO
@@ -785,4 +783,27 @@ Wire Wire Line
 	3400 4350 4150 4350
 Wire Wire Line
 	3400 4250 4150 4250
+$Comp
+L Device:R R601
+U 1 1 60FD1D2F
+P 8000 4150
+F 0 "R601" V 8207 4150 50  0000 C CNN
+F 1 "0603 1k" V 8116 4150 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 7930 4150 50  0001 C CNN
+F 3 "~" H 8000 4150 50  0001 C CNN
+	1    8000 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 4350 7700 4350
+Wire Wire Line
+	7700 4350 7700 4150
+Wire Wire Line
+	7700 4150 7850 4150
+Wire Wire Line
+	8150 4150 8500 4150
+Text HLabel 8500 4150 2    50   Input ~ 0
+KTX
+Text Label 7750 5250 0    50   ~ 0
+RESET
 $EndSCHEMATC
